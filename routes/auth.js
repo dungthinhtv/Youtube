@@ -13,6 +13,6 @@ router.post('/signin', signin);
 router.post('/google', googleAuth);
 
 //LOGOUT
-router.post('/signout', signout);
+// router.post('/signout', signout);
 
 export default router;
