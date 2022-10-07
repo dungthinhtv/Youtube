@@ -70,7 +70,7 @@ export const googleAuth = async (req, res, next) => {
   }
 };
 
-export const logout = async (req, res, next) => {
+export const signout = async (req, res, next) => {
   try {
     res.clearCookie('access_token').status(200).send('User has been logout.');
     res.end();
